@@ -20,10 +20,14 @@ jobs:
           assert d["schemaVersion"] == 1
           assert isinstance(d["revision"], int) and d["revision"] >= 1
           assert isinstance(d["records"], list) and len(d["records"]) <= 2000
-          allowed={"rosh-hashanah","yom-kippur","passover","eid-al-fitr","eid-al-adha","diwali"}
+          allowed={"ramadan-begins","eid-al-fitr","eid-al-adha","diwali"}
+          statuses={"authoritySupplied","sourceSupplied","provisional"}
           for r in d["records"]:
               assert r["ruleID"] in allowed
               datetime.date.fromisoformat(r["date"])
-              assert isinstance(r["provisional"], bool)
+              if r.get("endDate"):
+                  datetime.date.fromisoformat(r["endDate"])
+              assert r["status"] in statuses
+              assert r["sourceLabel"] and r["sourceURL"].startswith("https://")
           print("revision", d["revision"], "records", len(d["records"]))
           PY
