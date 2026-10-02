@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "publishedAt": "2026-10-02",
+  "records": [
+    {
+      "ruleID": "ramadan-begins",
+      "date": "2026-02-18",
+      "endDate": "2026-03-19",
+      "region": "north-america",
+      "status": "authoritySupplied",
+      "sourceLabel": "FCNA published 2026 announcement",
+      "sourceURL": "https://fiqhcouncil.org/ramadan-2026-announcement/"
+    },
+    {
+      "ruleID": "eid-al-fitr",
+      "date": "2026-03-20",
+      "endDate": null,
+      "region": "north-america",
+      "status": "authoritySupplied",
+      "sourceLabel": "FCNA published 2026 announcement",
+      "sourceURL": "https://fiqhcouncil.org/ramadan-2026-announcement/"
+    },
+    {
+      "ruleID": "eid-al-adha",
+      "date": "2026-05-27",
+      "endDate": null,
+      "region": "north-america",
+      "status": "authoritySupplied",
+      "sourceLabel": "Islamic Center of Long Island 2026 announcement, citing FCNA",
+      "sourceURL": "https://icliny.org/eid-ul-adha-2026/"
+    },
+    {
+      "ruleID": "ramadan-begins",
+      "date": "2027-02-08",
+      "endDate": "2027-03-08",
+      "region": "north-america",
+      "status": "provisional",
+      "sourceLabel": "Published FCNA-method 2027 projection (provisional)",
+      "sourceURL": "https://hisabmu.com/fcna.html"
+    },
+    {
+      "ruleID": "eid-al-fitr",
+      "date": "2027-03-09",
+      "endDate": null,
+      "region": "north-america",
+      "status": "provisional",
+      "sourceLabel": "Published FCNA-method 2027 projection (provisional)",
+      "sourceURL": "https://hisabmu.com/fcna.html"
+    },
+    {
+      "ruleID": "diwali",
+      "date": "2026-11-08",
+      "endDate": null,
+      "region": "india-reference",
+      "status": "sourceSupplied",
+      "sourceLabel": "Drik Panchang published principal Diwali date",
+      "sourceURL": "https://www.drikpanchang.com/hindu-festivals/diwali/diwali.html"
+    },
+    {
+      "ruleID": "diwali",
+      "date": "2027-10-29",
+      "endDate": null,
+      "region": "india-reference",
+      "status": "sourceSupplied",
+      "sourceLabel": "Drik Panchang published principal Diwali date",
+      "sourceURL": "https://www.drikpanchang.com/hindu-festivals/diwali/diwali.html"
+    },
+    {
+      "ruleID": "diwali",
+      "date": "2028-10-17",
+      "endDate": null,
+      "region": "india-reference",
+      "status": "sourceSupplied",
+      "sourceLabel": "Drik Panchang published principal Diwali date",
+      "sourceURL": "https://www.drikpanchang.com/hindu-festivals/diwali/diwali.html"
+    }
+  ]
+}
